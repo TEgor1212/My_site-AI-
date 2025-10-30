@@ -1,0 +1,128 @@
+@font-face{
+    font-family: Julius;
+    src: url("../FONTS/JuliusSansOne-Regular.ttf");
+}
+@font-face{
+    font-family: Cruinn;
+    src: url("../FONTS/ofont.ru_Cruinn.ttf");
+}
+body{
+     font-family: Cruinn;
+}
+header{
+    padding: 15px;
+    background-color: white;
+    height: 100%;
+}
+h1 {
+    display: block;
+    background-color: white;
+    justify-content: left;
+    margin-left: 60px;
+}
+h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+    font-family: Julius;
+    transition: 0.3s;
+    
+}
+h1 a:hover{
+    font-size:3rem ;
+}
+.navbar {
+background-color: #B1FFFB;
+
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navbar li{
+    color: black;
+    font-weight:100;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px 30px 60px;
+    transition: 0.3s;
+}
+.navbar a{
+     border-right: solid 1px black;
+}
+.navbar li:hover{
+    background-color: aquamarine;
+    font-size: 1.5rem;
+}
+
+#final_nav{
+    border-right: 0px;
+}
+ .navbar a{
+    text-decoration: none;
+    transition: 0.3s;
+ }
+ #centry{
+    display: flex;
+    justify-content: center;
+ }
+ #walper{
+    background-image: url("../IMAGES/1760111051.png");
+    background-position: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#blur{
+    backdrop-filter: blur(15px);
+}
+ #a {
+background-color: white;
+padding: 15px;
+justify-content: left;
+margin-top: 20px;
+margin-right: 200px;
+margin-bottom: 60px;
+border-radius: 0px 15px 15px 0px;
+ }
+ p{
+    font-family: Cruinn;
+    font-size: 1.25rem;
+ }
+ #b {
+    background-color: white;
+    padding: 15px;
+    padding-left: 45px;
+    justify-content: right;
+    margin-left: 200px;
+     border-radius: 15px 0px 0px 15px ;
+ }
+ #c {
+    display: flex;
+    justify-content: center;
+ }
+ .kapibara_galery .line_1{
+display: flex;
+ margin: 10px;
+ gap: 10px;
+ }
+ .line_2 {
+display: flex;
+ margin: 10px;
+ gap: 10px;
+ }
+ .kapibara_galery img{
+    height: 300px;
+    width: 300px;
+    transition: 0.2s;
+ }
+ .kapibara_galery img:hover{
+     height:350px;
+     width: 350px;
+ }
+ #text h2{
+    
+ }
